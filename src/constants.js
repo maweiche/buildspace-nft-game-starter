@@ -1,6 +1,6 @@
 require('dotenv').config();
 
-const CONTRACT_ADDRESS = process.env.CONTRACT_ADDRESS;
+const CONTRACT_ADDRESS = '0x3e613C37eaAd18EE10AAd909f77DafDd71A08b4c';
 
 const transformCharacterData = (characterData) => {
     return {
