@@ -1,13 +1,25 @@
 .App {
   height: 100vh;
-  background-color: #0d1116;
+  background-color: radial-gradient(circle at bottom, rgb(128, 0, 96) 0, rgb(47, 255, 0) 100%);
   overflow: scroll;
   text-align: center;
 }
 
+#title {
+  text-shadow:2px 2px #353535;
+  background-image: url("./assets/sky.png");
+  height: 15 vh;
+}
+
+#subtitle {
+  color: blue;
+  text-shadow:1px 1px lightgrey;
+  
+}
+
 .container {
   height: 100%;
-  background-color: #0d1116;
+  background: radial-gradient(circle at bottom, rgb(128, 0, 96) 0, rgb(47, 255, 0) 100%);
   display: flex;
   flex-direction: column;
   justify-content: space-between;

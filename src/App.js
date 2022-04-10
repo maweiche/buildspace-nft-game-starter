@@ -159,8 +159,11 @@ const App = () => {
     <div className="App">
       <div className="container">
         <div className="header-container">
-          <p className="header gradient-text">⚔️ Web3 Superstar Fighter ⚔️</p>
-          <p className="sub-text">Team up to protect the Metaverse from Snoop Dogg!</p>
+          <div id="title">
+            <p className="header gradient-text">🥊 Web3 Superstar Fighter 🥊</p>
+            <br />
+          </div>
+          <p id="subtitle" className="sub-text">Team up to protect the MetaVerse from Snoop Dogg!</p>
           {renderContent()}
         </div>
         <div className="footer-container">
